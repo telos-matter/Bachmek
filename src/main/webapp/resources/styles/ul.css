@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+ul {
+      list-style: none;
+}
+
+li:before {
+      content: "\2022";
+      color:  #007FA4;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+      margin: 0;
+      padding: 0;   
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1a1536;
+}
+
+:link {
+      text-decoration: none;
+}
+
+body {
+      background-color: rgb(242, 241, 244);
+      display: flex;
+      flex-flow: column nowrap;
+}
+
+.estm_name {
+      font-family: "Coves Bold";
+}
+
+.g_h_clr {
+      color:  #007FA4;
+}
+
+.g_marg {
+      margin-left: 1vw;
+      margin-right: 1vw;
+}
+
+.g_marg_as_padd {
+      padding-left: 1vw;
+      padding-right: 1vw;
+}
+
+.g_marg_as_height {
+      min-height: 1vw;
+      max-height: 1vw;
+}
+
+.g_bg_clr {
+      background-color: white;
+}
+
+.g_border {
+      border: solid .5px;
+      border-color: rgb(225, 227, 230);
+}

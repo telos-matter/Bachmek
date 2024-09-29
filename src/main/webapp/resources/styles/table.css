@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgb(242, 241, 244);
+}
+table, th, td {
+      border: 2.5px solid rgb(225, 227, 230);
+}
+
+tr:nth-child(even) {
+      background-color: rgba(233, 154, 63, 0.1);
+}
+
+.th {
+      background-color: rgb(242, 241, 244);
+}
+
+th {
+      font-size: large;
+      padding: .5vw;
+}
+
+td {
+      font-size: large;
+      text-align: center; 
+      vertical-align: middle;
+      padding: .3vw;
+}

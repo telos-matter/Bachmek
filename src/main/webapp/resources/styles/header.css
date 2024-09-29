@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#main_header { 
+      border: solid 7px transparent;
+      border-radius: 25px;
+      background-image: linear-gradient(white, white), linear-gradient(to bottom, #E9993F, #377CA0);
+      background-origin: content-box, border-box;
+      background-clip: padding-box, border-box;
+      margin-top: 0px;
+      padding: 12px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+}
+
+#main_header > #main_header_logo_link {
+      margin-right: auto;
+      margin-left: 3vw;
+}
+
+#main_header > #main_header_estm_link {
+      margin-right: auto;
+}
+
+#main_header_estm_link > .estm_name {
+      font-size: 56px;
+}
